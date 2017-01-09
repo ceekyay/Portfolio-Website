@@ -16,10 +16,10 @@
 }
 .soc a {
   position: relative;
-  height: 80px;
-  height: 8.0rem;
-  width: 80px;
-  width: 8.0rem;
+  height: 60px;
+  height: 6.0rem;
+  width: 60px;
+  width: 6.0rem;
 }
 .soc svg {
   height: 100%;
