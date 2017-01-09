@@ -2,9 +2,13 @@ html {
   font-size: 100%;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
+  overflow: hidden;
 }
 
 body {
+  margin: 0;
+  padding: 0;
+  background-color: #1F1F1F;
 
 }
 
@@ -16,19 +20,20 @@ body {
 .menu-lists{
   float: left;
   list-style-type: none;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'PT Sans Narrow', sans-serif;
+  letter-spacing: 0.1em;
   font-size: 150%;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #353535;
+  background-color: black; /* menu-bar color */
   width: 100%;
 }
 
 .menu-lists li {
     float: left;
     width: 16.6667%; /* fallback for non-calc() browsers */
-    width: calc(100% / 5);
+    width: calc(100% / 7);
     padding-top:2%;
     padding-bottom:2%;
 
@@ -36,20 +41,24 @@ body {
 
 .menu-lists li a {
   transition: 0.3s ease;
-  background: #353535;
-  color: #ffffff;
+  background: black;
+  color: white; /* menu-bar-text color */
   font-size: 20px;
   text-decoration: none;
-  border-top: 4px solid #353535;
-  border-bottom: 4px solid #353535;
+  border-top: 4px solid black; /* menu-bar-line-decor-before effect color */
+  border-bottom: 4px solid black;
   padding: 20px 0;
   margin: 0 20px;
 
 }
 
 .menu-lists li a:hover {
-  border-top: 4px solid #ffffff;
-  border-bottom: 4px solid #ffffff;
-  background: black;
+  border-top: 4px solid white; /* menu-bar-line-decor-after effect color */
+  border-bottom: 4px solid white;
+  background: #1F1F1F; /* after-effect-box color*/
   padding: 6px 0;
+}
+
+.main-content{
+
 }
