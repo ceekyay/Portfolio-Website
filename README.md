@@ -5,3 +5,6 @@ Personal Website development for Resume and other activities
 
 update 2:
 - changed the background color of the website
+
+update 3:
+- added demo canvas background
