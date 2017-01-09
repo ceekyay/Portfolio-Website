@@ -16,6 +16,8 @@ body {
   text-align: center;
   text-decoration: none;
   width: 100%;
+  position: fixed;
+  z-index: 1000;
 }
 .menu-lists{
   float: left;
@@ -59,13 +61,16 @@ body {
   padding: 6px 0;
 }
 
+.main-content{
+position: relative;
+}
 .large-header {
-	position: relative;
+	position: fixed;
 	width: 100%;
 	overflow: hidden;
 	background-size: cover;
 	background-position: center center;
-	z-index: 1;
+  z-index: 0;
 }
 
 .landing-title {
@@ -80,4 +85,10 @@ body {
 	left: 50%;
 	-webkit-transform: translate3d(-50%,-50%,0);
 	transform: translate3d(-50%,-50%,0);
+  z-index: 1;
+}
+
+.social-media{
+  padding-top: 24%;
+
 }
